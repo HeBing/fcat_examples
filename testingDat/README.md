@@ -28,3 +28,5 @@ In `fcat` manuscript, four examples were presented: DNase-seq, DNase-Flash, ATAC
 * DNase-Flash:
     - `CTCFData_narrowPeak_Ag09319_genomewide.txt`
 * GRO-seq:
+    - `testingRegion_GROseq_Gm12878.txt`
+    - `testingRegion_GROseq_K562.txt`
