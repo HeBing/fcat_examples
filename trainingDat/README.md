@@ -1,6 +1,8 @@
 ### Compilation of training Data: housekeeping motifs
 
-This directory contains instructions and code for compiling the mixed training data used in fcat manuscript. The mixed training data contains data for the following motifs:
+This directory contains instructions and code for compiling the mixed training data used in fcat manuscript. The mixed training data can be found in `mixedTraining.txt`.  The 1st column represents chromosome number; the 2nd column is the coordinate and the 3rd column indicates whether this motif site is active (1) or negative (0). 
+
+The mixed training data contains data for the following motifs:
 * CMYC: computationally mapped motif sites covered by all of the available ChIP-seq narrow peak files from ENCODE for CMYC:
     - wgEncodeAwgTfbsUtaGm12878CmycUniPk.narrowPeak
     - wgEncodeSydhTfbsA549CmycIggrabPk.narrowPeak
@@ -155,3 +157,5 @@ This directory contains instructions and code for compiling the mixed training d
     - wgEncodeAwgTfbsHaibHepg2GabpPcr2xUniPk.narrowPeak
     - wgEncodeAwgTfbsHaibK562GabpV0416101UniPk.narrowPeak
 * Randomly sampled background motif sites as negative cases.
+
+All the motifs sites are mapped using [cisgenome2.0](http://www.biostat.jhsph.edu/~hji/cisgenome/) with default arguments with motifs from [JASPAR](http://jaspar.genereg.net/). 
