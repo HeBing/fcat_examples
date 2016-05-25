@@ -2,6 +2,8 @@
 
 This directory contains instructions and code for compiling the training data used in fcat manuscript. 
 
+For installation, mannual and source code for `fcat`, please see [`fcat`](https://github.com/HeBing/fcat)
+
 The mixed training data contains housekeeping motif sites and can be found in `mixedTraining.txt`.  The 1st column represents chromosome number; the 2nd column is the coordinate and the 3rd column indicates whether this motif site is active (1) or negative (0). 
 
 The mixed training data contains data for the following motifs:

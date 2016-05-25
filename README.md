@@ -1,6 +1,6 @@
 ### Code and Instructions for four data examples in fcat manuscript
 
-For fcat release, see [fcat](https://github.com/HeBing/fcat).
+For installation, mannual and source code for `fcat`, please see [`fcat`](https://github.com/HeBing/fcat)For fcat release, see [fcat](https://github.com/HeBing/fcat).
 
 This repository contains the code and instructions for compiling the training data and for the four examples in fcat manuscript, including DNase-seq, DNase-Flash, ATAC-seq and GRO-seq: 
 
