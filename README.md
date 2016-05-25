@@ -7,7 +7,7 @@ This repository contains all the code and instructions for compiling the trainin
 * Compile training data: please see directory `trainingDat`
 * DNase-seq example: 
     - training data: mixed training data excluding the TF under investigation from directory `trainingDat`.
-    - DNase-seq data used: [`wgEncodeUwDnaseGm12878AlnRep1.bam`](http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeUwDnase/wgEncodeUwDnaseGm12878AlnRep1.bam) and `wgEncodeUwDnaseGm12878AlnRep2.bam`(http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeUwDnase/wgEncodeUwDnaseGm12878AlnRep2.bam) from ENCODE.
+    - DNase-seq data used: [`wgEncodeUwDnaseGm12878AlnRep1.bam`](http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeUwDnase/wgEncodeUwDnaseGm12878AlnRep1.bam) and [`wgEncodeUwDnaseGm12878AlnRep2.bam`](http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeUwDnase/wgEncodeUwDnaseGm12878AlnRep2.bam) from ENCODE.
     - testing data: testing data in the subdirectory `testingDat` corresponding to the TF under investigation
 * DNase-Flash example: 
     - training data: mixed training data excluding the TF under investigation from directory `trainingDat`.
